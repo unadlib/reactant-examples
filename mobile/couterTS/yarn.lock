@@ -5095,38 +5095,38 @@ react@16.11.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
-reactant-di@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.1.10.tgz#b3d6011fff0f52b0b8f77ee723e9655937e8441e"
-  integrity sha512-OhVdk3lyUPnio3X6SpDnVTShVKGDq7dIuP1v9SM6dAcExx4942GsUuio21vpfI8hCqyv+hwenxQpPW9lm3rdcQ==
+reactant-di@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.1.11.tgz#68b15a3c688cbdcb82296c73fbd9c00b158ac39b"
+  integrity sha512-uQsJ45OxFvU4D0fFOtGeIaJwRTa6tFGbnXccqbTj5J7oPC+vWmmKZ+pLyRFKeBK4vOvht7/f4/xhvWUG1efylQ==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
 
-reactant-module@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.1.10.tgz#93331e1726ba9b6198823b8098e4aa87288a9cae"
-  integrity sha512-1dBqaeuBYHq/lIapKgzX8bjcmWmYXCeDyyZKcMF7RfJytl4EtMwM543N5Cqii+OeUdr8TXWUQ9TjzvxGG6MNag==
+reactant-module@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.1.11.tgz#0e88739b1c61e57872d2bd96d3b186d69b313675"
+  integrity sha512-fs78GCcAckV67NFLr0QJxvoDNwgtYu2yy8hQSq8wOPmjmS1cNCAO3lqM4OerszrUOjd9rBa+DuHVgVeNoz4+7w==
   dependencies:
     immer "^5.3.6"
-    reactant-di "^0.1.10"
+    reactant-di "^0.1.11"
     redux "^4.0.5"
     reselect "^4.0.0"
 
-reactant-native@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/reactant-native/-/reactant-native-0.1.10.tgz#a0df3bc24e2d1d7556cee6263845baf9d1d72fcd"
-  integrity sha512-WMUy3xKTSLrC+Vbvss0CeFiY6j8yO9is9fuCeGCcDcFTnJjHeWpPsfrwXedWAZQAm24ze5h5r0csHvvM/ik25g==
+reactant-native@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/reactant-native/-/reactant-native-0.1.11.tgz#9146ae7bb1481017e9ea62b8b47a12b3aecd1426"
+  integrity sha512-OAsS0Ti6VXAX/IXqYmdvqi34dfQPB2PKHo2/kArq57yxMyhiFuqtGvTcS/LOB7IHQeiMqKHZavkAjHlUm4tC3Q==
   dependencies:
     react-native "^0.62.2"
 
-reactant@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.1.10.tgz#e7e78e25336bcbc9456cee3c15c443fff6cce32e"
-  integrity sha512-eHDc6uB+N67h19/CA6Rh6mu3FlCPA2NXytqCaKc7VeC2U2tXwvJsHPtUSwPBpJ4VHXvA3HY2fefwUCliYjZXoA==
+reactant@^0.1.11:
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.1.11.tgz#ae17ce771fee646c2fd63e431445dc0bbdead305"
+  integrity sha512-KKCs/V5Cs3KVBUOZcPxDXPoutYxiZzIDGb+J3X97yPQUfVIHjaAtfr2g4h5/0cF0nSC77rEIWrIZO6db1elmSA==
   dependencies:
     react-redux "^7.2.0"
-    reactant-module "^0.1.10"
+    reactant-module "^0.1.11"
 
 read-pkg-up@^4.0.0:
   version "4.0.0"

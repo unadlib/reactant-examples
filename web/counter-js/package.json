@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "reactant": "0.1.10",
-    "reactant-web": "0.1.10"
+    "reactant": "^0.1.11",
+    "reactant-web": "^0.1.11"
   }
 }
