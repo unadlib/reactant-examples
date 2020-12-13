@@ -5167,15 +5167,6 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@17.0.1:
-  version "17.0.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
-  integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    scheduler "^0.20.1"
-
 react-dom@^16.12.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
@@ -5185,6 +5176,15 @@ react-dom@^16.12.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-dom@^17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
+  integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.1"
 
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
@@ -5236,7 +5236,7 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react@17.0.1:
+react@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
@@ -5244,45 +5244,45 @@ react@17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-reactant-di@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.5.0.tgz#2232540407a94887b668573c1be4acd6429725e4"
-  integrity sha512-+M6sO/OTlvat2s2wqsfEJL6WzwBPVu5A+d19f3C4KMPI2e8EqVSI1TzHGoHSRnYIypfM8xqER2x9PFFvWt5X9Q==
+reactant-di@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.5.1.tgz#e66f2257fa014e82c48d7cf42a206f55d23766b2"
+  integrity sha512-pWuZ31ObXLm9yZ21Zxb5qVbzfFD/qPqngQyPJ1mp6nlvsYjo/OeoXoqwCGQ70YBNzrBMU5FqyNNyrq2XklbluQ==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
 
-reactant-module@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.5.0.tgz#e233108fa45b7a056e3a3e8df3e73ca0a71d40b8"
-  integrity sha512-36GW5qetEh0q0zEuRk6tKaOcuCHpG9YO47sJJKQXOTVUeHV7Uly22P7nYmbIGUR6qPnkWN0M/Oid3dIT0BY7Xg==
+reactant-module@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.5.1.tgz#1d66d26d72f5df7ece8bca716627893e617e65f9"
+  integrity sha512-ZwZUJ8yFbKndWVaZMGBxdr3q/bJhUL7n3xuR7Jfw0GgYjnaQk9ln/1Rsre1v4pkWMyPOIaxKnoXajkYUe6XsZQ==
   dependencies:
     immer "^7.0.8"
-    reactant-di "^0.5.0"
+    reactant-di "^0.5.1"
     redux "^4.0.5"
 
-reactant-router-dom@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/reactant-router-dom/-/reactant-router-dom-0.5.0.tgz#5b08bd5d3846015f9f3e5b079db4ea26a7db48fa"
-  integrity sha512-d8+P0vgW5KNeZpQ/f5uWbIm6ugkfyGr6lnC4gTNb5Q7o6dZlC3lu2e1+lOyWOgUriEwKf7zdIjiOetKcuvdSWQ==
+reactant-router-dom@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reactant-router-dom/-/reactant-router-dom-0.5.1.tgz#c37c73d31219f5dd40bbafada0bfbf1ba2d7a030"
+  integrity sha512-claGo0OW4kTDbfOd3Nk2X0bLTWFWT0H32dC05CX9gDc2RtmIs0amlBLyD5NbFovT9zhy34TGhC+SGlbPffyFXA==
   dependencies:
     react-router-dom "^5.1.2"
 
-reactant-web@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/reactant-web/-/reactant-web-0.5.0.tgz#9351786f4bb229151947b97bec2a4ed384ec07da"
-  integrity sha512-7lHAXElITSsM4ITKxVhz41kSSUL03+hhurp4QM99gD9+3RpA0GEmr7OiksDMIo43Is4Z1PUdcKsP13KLqELaFw==
+reactant-web@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reactant-web/-/reactant-web-0.5.1.tgz#1dcc46e3259d03d4345a75fc95520ce5bbf4dd9a"
+  integrity sha512-o+K4pWhhXAktuTbIdYWxyglxd+ouJdwOZWW5ZokHgFvWana/z0gutX4T/2o7o6Y1nwU7J0LeIgFMwLNpK+QeYQ==
   dependencies:
     react-dom "^16.12.0"
-    reactant-router-dom "^0.5.0"
+    reactant-router-dom "^0.5.1"
 
-reactant@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.5.0.tgz#47984faa7f8adf9605bdb2e6a699e49d6718df37"
-  integrity sha512-SGYBxgNHgRyuSSVuxDMGLp3dnlFx9IgvNOeHYFQIuKxUtvt/zTB9LSCD9tljfkuT3rE4LAUrTyk8iCguG6Q5OQ==
+reactant@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.5.1.tgz#d28d9a0418715490563839dc55e2e68ae09722a8"
+  integrity sha512-pN+M7s/2wL/rLW3T51H79QbXsL2A0Kui4t3t2mrcuGIFXribo2EWaDxL33NPLcQ2yM2Y1nrJAsuIELUgfwQ0+w==
   dependencies:
     react-redux "^7.2.0"
-    reactant-module "^0.5.0"
+    reactant-module "^0.5.1"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"

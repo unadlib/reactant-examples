@@ -26,9 +26,13 @@ class AppView extends ViewModule {
     const { CounterService } = await import(
       /* webpackChunkName: "Counter.service" */ "./Counter.service"
     );
-    load(this, { main: CounterService }, (module) => {
-      this.counter = module;
-    });
+    load(
+      this,
+      { main: { provide: "counter", useClass: CounterService } },
+      (module) => {
+        this.counter = module;
+      }
+    );
   };
 
   component() {
