@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
   injectable,
-  optional,
+  lazy,
   ImportClass,
   ViewModule,
   load,
@@ -11,14 +11,7 @@ import { TodoService } from "./Todo.service";
 
 @injectable()
 class AppView extends ViewModule {
-  constructor(
-    public todo: TodoService,
-    @optional("counter")
-    public counter?: ImportClass<
-      typeof import("./Counter.service"),
-      "CounterService"
-    >
-  ) {
+  constructor(public todo: TodoService) {
     super();
   }
 
@@ -26,14 +19,11 @@ class AppView extends ViewModule {
     const { CounterService } = await import(
       /* webpackChunkName: "Counter.service" */ "./Counter.service"
     );
-    load(
-      this,
-      { main: { provide: "counter", useClass: CounterService } },
-      (module) => {
-        this.counter = module;
-      }
-    );
+    load(this, { main: { provide: "counter", useClass: CounterService } });
   };
+
+  @lazy("counter")
+  counter?: ImportClass<typeof import("./Counter.service"), "CounterService">;
 
   component() {
     const { list, count } = useConnector(() => ({

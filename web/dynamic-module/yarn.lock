@@ -3144,10 +3144,10 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
-immer@^7.0.8:
-  version "7.0.15"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
-  integrity sha512-yM7jo9+hvYgvdCQdqvhCNRRio0SCXc8xDPzA25SvKWa7b1WVPjLwQs1VYU5JPXjcJPTqAa5NP5dqpORGYBQ2AA==
+immer@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
+  integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
 
 import-local@^2.0.0:
   version "2.0.0"
@@ -5244,45 +5244,45 @@ react@^17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-reactant-di@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.5.1.tgz#e66f2257fa014e82c48d7cf42a206f55d23766b2"
-  integrity sha512-pWuZ31ObXLm9yZ21Zxb5qVbzfFD/qPqngQyPJ1mp6nlvsYjo/OeoXoqwCGQ70YBNzrBMU5FqyNNyrq2XklbluQ==
+reactant-di@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/reactant-di/-/reactant-di-0.6.1.tgz#6ef655c15635b1769ffced86ec646d34e6a30ac5"
+  integrity sha512-m8v2FJEpCk5XYHJI8xNi9zPZu+ahl/ZiNmaqaE+sqTNrpR7uOz0l8p7hY23+OJHrFgCSUguQ3t+FEJFgUJsPbg==
   dependencies:
     inversify "^5.0.1"
     reflect-metadata "^0.1.13"
 
-reactant-module@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.5.1.tgz#1d66d26d72f5df7ece8bca716627893e617e65f9"
-  integrity sha512-ZwZUJ8yFbKndWVaZMGBxdr3q/bJhUL7n3xuR7Jfw0GgYjnaQk9ln/1Rsre1v4pkWMyPOIaxKnoXajkYUe6XsZQ==
+reactant-module@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/reactant-module/-/reactant-module-0.6.1.tgz#dbc681e01d349f3f6c20d2f6c3624468c6724ea0"
+  integrity sha512-kPb7zQE7f/7yKTlRX+vgOYd2jxxlb0mawnLKn+7VDyYKtsctSHev9tMomu00emv1JUfsnsG/QU0oCVkRvwR1Sw==
   dependencies:
-    immer "^7.0.8"
-    reactant-di "^0.5.1"
+    immer "^8.0.1"
+    reactant-di "^0.6.1"
     redux "^4.0.5"
 
-reactant-router-dom@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/reactant-router-dom/-/reactant-router-dom-0.5.1.tgz#c37c73d31219f5dd40bbafada0bfbf1ba2d7a030"
-  integrity sha512-claGo0OW4kTDbfOd3Nk2X0bLTWFWT0H32dC05CX9gDc2RtmIs0amlBLyD5NbFovT9zhy34TGhC+SGlbPffyFXA==
+reactant-router-dom@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/reactant-router-dom/-/reactant-router-dom-0.6.1.tgz#af963d756473aba9221f3cbca8cff26c77164764"
+  integrity sha512-ISW1eF450bOxZzRhyIiJ3KKvNTdbWT0ePmQChe7PnYFQ9ocmQH8iXfiZsY3jQJ8E/2t4+owfYaO3/335FWaaRQ==
   dependencies:
     react-router-dom "^5.1.2"
 
-reactant-web@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/reactant-web/-/reactant-web-0.5.1.tgz#1dcc46e3259d03d4345a75fc95520ce5bbf4dd9a"
-  integrity sha512-o+K4pWhhXAktuTbIdYWxyglxd+ouJdwOZWW5ZokHgFvWana/z0gutX4T/2o7o6Y1nwU7J0LeIgFMwLNpK+QeYQ==
+reactant-web@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/reactant-web/-/reactant-web-0.6.1.tgz#e7cd8d9905ac0738eac82aecb1ab205788fbd62b"
+  integrity sha512-7mReMxnuijworxIAMoKUPbO6UXTCeSF7RfdTHdntnm8Qz1em8mXDVjrclaGzJAlrW3U5B8FJA5CNgt2YdWM0Cw==
   dependencies:
     react-dom "^16.12.0"
-    reactant-router-dom "^0.5.1"
+    reactant-router-dom "^0.6.1"
 
-reactant@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.5.1.tgz#d28d9a0418715490563839dc55e2e68ae09722a8"
-  integrity sha512-pN+M7s/2wL/rLW3T51H79QbXsL2A0Kui4t3t2mrcuGIFXribo2EWaDxL33NPLcQ2yM2Y1nrJAsuIELUgfwQ0+w==
+reactant@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/reactant/-/reactant-0.6.1.tgz#638fbc866ab09de7b04b1cae9a682c6f001a0a0d"
+  integrity sha512-+uFEprQpV1v12oz3rWIX3aKMQ+KE8dFLiRSUI/iF1jaESepkAxD2uI2bYVmFRC94fMv5sOZKfTfEhjYP1hcZWg==
   dependencies:
     react-redux "^7.2.0"
-    reactant-module "^0.5.1"
+    reactant-module "^0.6.1"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
