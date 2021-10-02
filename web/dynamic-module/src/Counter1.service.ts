@@ -1,12 +1,9 @@
 import { injectable, action, state } from 'reactant';
-import { CounterService1 } from './Counter1.service';
 
 @injectable({
-  name: 'counter'
+  name: 'counter1'
 })
-class CounterService {
-  constructor(public counter1: CounterService1) {}
-
+class CounterService1 {
   @state
   count = 0;
 
@@ -21,4 +18,4 @@ class CounterService {
   }
 }
 
-export { CounterService };
+export { CounterService1 };
