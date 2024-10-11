@@ -2,6 +2,11 @@ import { render } from 'reactant-web';
 import { createSharedApp } from 'reactant-share';
 import { AppView } from './app.view';
 
+
+const worker = new SharedWorker(
+  /* webpackChunkName: "worker" */ new URL('./worker.ts', import.meta.url)
+);
+
 createSharedApp({
   modules: [],
   main: AppView,
@@ -10,7 +15,7 @@ createSharedApp({
     name: 'SharedWorkerApp',
     port: 'client',
     type: 'SharedWorker',
-    workerURL: 'worker.bundle.js',
+    worker,
   },
 }).then((app) => {
   // @ts-ignore

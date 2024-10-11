@@ -32,8 +32,6 @@ class AppView extends ViewModule {
   };
 
   loadServerModule = async () => {
-    // @ts-ignore
-    self.importScripts?.("./todo.service.bundle.js");
     const { TodoService } = await import(
       /* webpackChunkName: "todo.service" */ "./todo.service"
     );

@@ -4,7 +4,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
     index: './src/index.ts',
-    worker: './src/worker.ts',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -28,7 +27,7 @@ module.exports = {
       directory: path.join(__dirname, 'public'),
     },
     compress: true,
-    port: 7000,
+    port: 7001,
   },
   plugins: [
     new CopyWebpackPlugin({
